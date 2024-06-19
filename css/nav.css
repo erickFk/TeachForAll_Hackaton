@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap");
+@import "variables.css";
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--blue-800);
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.company-name {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  margin-left: 1rem;
+}
+
+.nav-links button {
+  background-color: var(--blue-800);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.nav-links button i {
+  font-size: 1.2rem;
+  color: white; /* Asegura que los iconos sean blancos */
+}
+
+
+.card {
+  margin-top: 20px;
+}
+
+.card img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link:hover .card {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+/* Chatbot Styles */
+.chatbot-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid #0a48a4;
+  
+}
+
+.chatbot-button img {
+  width: 50px;
+  height: 50px;
+}
+
+.chatbot-container {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.chatbot-header {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-header .close-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.chatbot-body {
+  padding: 10px;
+  text-align: center;
+}
+
+.chatbot-footer {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.chatbot-footer .form-control {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.btn-index {
+    z-index: 1;
+}

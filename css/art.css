@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+@import 'variables.css';
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--blue-800);
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.company-name {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  margin-left: 1rem;
+}
+
+.nav-links button {
+  background-color: var(--blue-800);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links button i {
+  font-size: 1.2rem;
+  color: white; /* Asegura que los iconos sean blancos */
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Reduce el margen superior de la sección de búsqueda */
+.search-section {
+  margin-top: 10px; /* Ajusta este valor según sea necesario */
+}
+
+.carousel-item img {
+  max-width: 100%;
+  max-height: 600px; /* Ajusta la altura máxima según sea necesario */
+  width: auto;
+  height: auto;
+  object-fit: cover; /* Mantiene la relación de aspecto */
+}
+
+/* Sobrescribir márgenes de Bootstrap si es necesario */
+.mt-5 {
+  margin-top: 1rem !important; /* Reduce el margen superior del carrusel */
+}
+
+.mb-4 {
+  margin-bottom: 1rem !important; /* Ajusta el margen inferior de la sección de búsqueda */
+}
+
+table {
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  text-align: center;
+  vertical-align: middle;
+}

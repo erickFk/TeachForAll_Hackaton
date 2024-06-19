@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-icons.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <header class="header">
+      <div class="logo-container">
+        <div class="logo">
+          <img src="../Images/_af071fd4-5c4f-4b93-86dc-1706a269b765.jpg" alt="TeachForAll">
+        </div>
+        <div class="company-name">
+          TeachForAll
+        </div>
+      </div>
+
+      <div class="nav-container">
+
+         <a href="Foro.html" class="btn nav-links"><button><i class="bi bi-chat-right-dots-fill"></i></button></a>
+
+        <a class="btn nav-links "><button><i class="fa-solid fa-user"></i></button></a>
+      </div>
+    </header>
+
+    <div class="container text-center mt-5">
+      <h1>Buscar cualquier tema</h1>
+      <div class="input-group mb-4 mt-3">
+        <input type="text" class="form-control" placeholder="Buscar cualquier tema">
+        <div class="input-group-append">
+          <button class="btn btn-secondary btn-index" type="button">Buscar</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <a href="Material.html" class="card-link">
+            <div class="card">
+              <img src="../Images/libros.jpg" class="card-img-top" alt="Materiales">
+              <div class="card-body">
+                <h5 class="card-title">Materiales</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="subirMaterial.html" class="card-link">
+            <div class="card">
+              <img src="../Images/1.jpg" class="card-img-top" alt="Mi contenido">
+              <div class="card-body">
+                <h5 class="card-title">Mi contenido</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="articulos.html" class="card-link">
+            <div class="card">
+              <img src="../Images/libro1.jpg" class="card-img-top" alt="Artículos">
+              <div class="card-body">
+                <h5 class="card-title">Artículos</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="convertidor.html" class="card-link">
+            <div class="card">
+              <img src="../Images/2.jpg" class="card-img-top" alt="Convertir material">
+              <div class="card-body">
+                <h5 class="card-title">Convertir material</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="chatbot-button" onclick="toggleChatbot()">
+    <img src="../Images/bot.jpg" alt="Chatbot Icon">
+  </div>
+
+    <!-- Chatbot Container -->
+  <div class="chatbot-container" id="chatbotContainer">
+    <div class="chatbot-header">
+      <h5>¡Hola! Soy Chatbot y estoy aquí para ayudarte.</h5>
+      <button class="close-btn" onclick="toggleChatbot()">×</button>
+    </div>
+    <div class="chatbot-body">
+      <p>Si tienes alguna pregunta o duda, no dudes en preguntar. ¡Estoy listo para asistirte!</p>
+      <img src="../Images/bot.jpg" alt="Chatbot Image">
+    </div>
+    <div class="chatbot-footer">
+      <input type="text" class="form-control" placeholder="Envia un mensaje a chatbot">
+      <button class="btn btn-primary">→</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="../js/funciones.js"></script>
+
+  </body>
+
+</html>

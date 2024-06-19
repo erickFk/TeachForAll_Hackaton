@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>TeachForAll</title>
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilos2.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .video-container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo">
+                <img src="../Images/_af071fd4-5c4f-4b93-86dc-1706a269b765.jpg" alt="TeachForAll">
+            </div>
+            <div class="company-name">
+                TeachForAll
+            </div>
+        </div>
+        <div class="nav-container">
+            <a href="inicio.html" class="btn nav-links"><button><i class="bi bi-house"></i></button></a>
+            <a href="Foro.html" class="btn nav-links"><button><i class="bi bi-chat-right-dots-fill"></i></button></a>
+            <a class="btn nav-links"><button><i class="fa-solid fa-user"></i></button></a>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar">
+                <div class="position-sticky pt-3">
+                    <p class="text-title">Contenido</p>
+                    <hr class="hr-side">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#introduccion">
+                                Introducción
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#actividad1">
+                                Actividad 1
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#actividad2">
+                                Actividad 2
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#actividad3">
+                                Actividad 3
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#actividad4">
+                                Actividad 4
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+                    <h2 class="title-cont">Suma y Resta</h2>
+                </div>
+
+                <div id="introduccion" class="content">
+                    <h4>Introducción</h4>
+                    <p>Para el aprendizaje de operaciones matemáticas básicas como la suma y la resta a personas con una
+                        discapacidad visual se puede hacer uso del ábaco Braille y plantillas punteadas. Estos instrumentos son
+                        herramientas esenciales que permiten a las personas ciegas o con baja visión adquirir habilidades
+                        matemáticas de manera efectiva e inclusiva.</p>
+                </div>
+
+                <div id="actividad1" class="content">
+                    <h4>Actividad 1</h4>
+                    <div class="row video-container">
+                        <div class="col-md-4">
+                            <p>La primera actividad consta de una serie de ejercicios con el ábaco Braille que le ayudarán a
+                                familiarizarse con el instrumento. Los estudiantes comenzarán aprendiendo a identificar y mover las
+                                cuentas, entendiendo su disposición y el valor en el ábaco.</p>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="actividad2" class="content">
+                    <h4>Actividad 2</h4>
+                    <p>En la segunda actividad, los estudiantes aplicarán sus conocimientos sobre el ábaco Braille para resolver
+                        problemas básicos de suma. Se presentarán varios ejercicios prácticos donde deberán sumar diferentes
+                        cantidades utilizando el ábaco, fomentando así la comprensión de las operaciones matemáticas de manera
+                        táctil y visual.</p>
+                </div>
+
+                <div id="actividad3" class="content">
+                    <h4>Actividad 3</h4>
+                    <p>La tercera actividad se centrará en la resta. Los estudiantes aprenderán a representar y resolver
+                        problemas de resta con el ábaco Braille. Esta actividad les ayudará a reforzar su capacidad para
+                        manipular y entender las operaciones de sustracción, utilizando un enfoque práctico y accesible.</p>
+                </div>
+
+                <div id="actividad4" class="content">
+                    <h4>Actividad 4</h4>
+                    <p>En la última actividad, los estudiantes enfrentarán una combinación de problemas de suma y resta. Deberán
+                        utilizar las habilidades adquiridas en las actividades anteriores para resolver estos problemas,
+                        fortaleciendo su confianza y competencia en el uso del ábaco Braille para operaciones matemáticas básicas.</p>
+                    <p>Además, podrás descargar una plantilla con ejercicios adicionales para practicar fuera de línea.</p>
+                    <a href="../recursos/ejercicios_adicionales.pdf" class="btn btn-primary" download="ejercicios_adicionales.pdf">
+                        Descargar: ejercicios_adicionales.pdf
+                    </a>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

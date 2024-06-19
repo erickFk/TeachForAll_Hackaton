@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+@import 'variables.css';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--blue-800);
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.company-name {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links button {
+  background-color: var(--blue-800);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links button i {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.barraSuperior {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.text-title {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.hr-side {
+  color: white;
+  height: 10px;
+}
+
+.sidebar {
+  background-color: #112b93b0;
+}
+
+.sidebar .nav-link.active {
+  color: #c2c2c2;
+}
+
+.title-cont {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.content {
+  margin-bottom: 30px;
+  background-color: #eeeeeeee;
+  padding: 20px;
+}
+
+.content h4 {
+  font-weight: bold;
+}
+
+.sidebar .nav-item a {
+  color: #c2c2c2;
+  padding-bottom: 20px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #112b9338;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+h1,
+h2 {
+  font-family: 'Kanit', sans-serif;
+}
+
+.video-container {
+  display: flex;
+  align-items: flex-start;
+  height: 200px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 50px;
+}
+
+.ratio {
+  margin-top: 1rem;
+}
+
+:root {
+  --blue-50: #eff6ff;
+  --blue-100: #dbeafe;
+  --blue-200: #bfdbfe;
+  --blue-300: #93c5fd;
+  --blue-400: #60a5fa;
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+  --blue-700: #1d4ed8;
+  --blue-800: #1e40af;
+  --blue-900: #1e3a8a;
+  --blue-950: #172554;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeachForAll - Comparte tus conocimientos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/nav.css">
+
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <div class="logo">
+          <img src="../Images/_af071fd4-5c4f-4b93-86dc-1706a269b765.jpg" alt="TeachForAll">
+        </div>
+        <div class="company-name">
+          TeachForAll
+        </div>
+      </div>
+
+      <div class="nav-container">
+        <a href="inicio.html" class="btn nav-links"><button><i class="bi bi-house"></i></button></a>
+       <a href="Foro.html" class="btn nav-links"><button><i class="bi bi-chat-right-dots-fill"></i></button></a>
+        <a class="btn nav-links "><button><i class="fa-solid fa-user"></i></button></a>
+      </div>
+    </header>
+    <div class="container">
+
+      <h2 class="text-center" style="margin-top: 25px;">Comparte tus conocimientos con la comunidad</h2>
+      <p>Para publicar artículos destinados a mejorar el apoyo a niños con discapacidad visual, completa los campos de
+        este formulario y espera la revisión de tu material por parte del equipo de TeachForAll. Supervisamos
+        estrictamente los contenidos para evitar la divulgación de información falsa, el plagio y la discriminación.
+        Gracias por tu comprensión y colaboración.</p>
+
+      <form>
+        <div class="form-group">
+          <label for="autor">Autor:</label>
+          <input type="text" class="form-control" id="autor" name="autor" required>
+        </div>
+        <div class="form-group">
+          <label for="titulo">Título del artículo:</label>
+          <input type="text" class="form-control" id="titulo" name="titulo" required>
+        </div>
+        <div class="form-group">
+          <label for="descripcion">Descripción:</label>
+          <textarea class="form-control" id="descripcion" name="descripcion" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Subir archivo</button>
+      </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <title>Materiales</title>
+</head>
+<body>
+  <div class="principal">
+    <header class="header">
+      <div class="logo-container">
+        <div class="logo">
+          <img src="../Images/_af071fd4-5c4f-4b93-86dc-1706a269b765.jpg" alt="TeachForAll">
+        </div>
+        <div class="company-name">
+          TeachForAll
+        </div>
+      </div>
+      <div class="nav-container">
+         <a href="inicio.html" class="btn nav-links"><button><i class="bi bi-house"></i></button></a>
+        <a href="Foro.html" class="btn nav-links"><button><i class="bi bi-chat-right-dots-fill"></i></button></a>
+        <a class="btn nav-links"><button><i class="fa-solid fa-user"></i></button></a>
+      </div>
+    </header>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <span class="navbar-brand">MATERIALES</span>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+    <div class="material-section">
+      <div class="card" onclick="irAPagina('lectura.html')">
+        <div class="card-body">
+          <img src="../Images/lectura.jpg" alt="Estrategias lectoras" class="card-img">
+          <div class="card-content">
+            <h5 class="card-title">Estrategias lectoras</h5>
+            <p class="card-text">Se presentan 10 estrategias para introducir la lectura en un niño con discapacidad visual.</p>
+            <a href="#" class="card-link">7 actividades</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" onclick="irAPagina('figuras.html')">
+        <div class="card-body">
+          <img src="../Images/figuras.jpeg" alt="Figuras geométricas" class="card-img">
+          <div class="card-content">
+            <h5 class="card-title">Figuras geométricas</h5>
+            <p class="card-text">Propone la interacción con objetos tridimensionales en la enseñanza.</p>
+            <a href="#" class="card-link">4 actividades</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" onclick="irAPagina('materiales_detalles.html')">
+        <div class="card-body">
+          <img src="../Images/suma y resta.jpeg" alt="Suma y resta" class="card-img">
+          <div class="card-content">
+            <h5 class="card-title">Suma y resta</h5>
+            <p class="card-text">Con ayuda de herramientas como el ábaco braille ayudamos a aprender operaciones matemáticas básicas.</p>
+            <a href="#" class="card-link">4 actividades</a>
+          </div>
+        </div>
+      </div>
+      <div class="card" onclick="irAPagina('fracciones.html')">
+        <div class="card-body">
+          <img src="../Images/frac-2-cke.jpg" alt="Fracciones" class="card-img">
+          <div class="card-content">
+            <h5 class="card-title">Fracciones</h5>
+            <p class="card-text">Utilizar plantillas perforadas para hacer el cálculo de operaciones fraccionarias.</p>
+            <a href="#" class="card-link">9 actividades</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  <script src="../js/funciones.js"></script>
+</body>
+</html>
