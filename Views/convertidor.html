@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-icons.css">
-  <link rel="stylesheet" href="../css/nav.css">
-  <title>Convertir material</title>
-</head>
-<body>
-  <header class="header">
+<html lang="es">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeachForAll - Formatos</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/nav.css">
+  </head>
+
+  <body>
+
+    <header class="header">
       <div class="logo-container">
         <div class="logo">
           <img src="../Images/_af071fd4-5c4f-4b93-86dc-1706a269b765.jpg" alt="TeachForAll">
@@ -20,17 +24,51 @@
       </div>
 
       <div class="nav-container">
-        <a href="inicio.html" class="btn nav-links"><button><i class="bi bi-house"></i></button></a>
-       <a href="Foro.html" class="btn nav-links"><button><i class="bi bi-chat-right-dots-fill"></i></button></a>
+
+        <a class="btn nav-links "><button><i class="fa-solid fa-volume-high"></i></button></a>
+
         <a class="btn nav-links "><button><i class="fa-solid fa-user"></i></button></a>
       </div>
     </header>
 
-   <div style="text-align: center; margin-top: 50px;">
-    <h1>Disculpe las molestias, estamos trabajando en ello.</h1>
-    <img src="../Images/gato.jpeg" alt="Imagen de un gato" style="max-width: 100%; height: auto;">
-</div>
 
-</body>
+    <div class="container mt-5">
+      <div class="card">
+
+        <div class="card-body">
+          <h2 class="text-center">FORMATOS</h2>
+          <form>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="braille">
+                <label class="form-check-label" for="braille">
+                  <strong>Texto a Braille</strong>
+                  <p class="mb-0">Transformación de un texto a en patrones de puntos táctiles.</p>
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="audio" checked>
+                <label class="form-check-label" for="audio">
+                  <strong>Texto a audio</strong>
+                  <p class="mb-0">Transformación del contenido escrito en una narración hablada clara y natural.</p>
+                </label>
+              </div>
+            </div>
+            <div class="form-group text-center">
+              <input type="file" class="d-block mx-auto mt-2" style="margin-bottom: 20px;">
+              <button type="button" class="btn btn-primary">Subir archivo</button>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 
 </html>
